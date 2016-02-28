@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="script.js"></script>
 		<title>What a lovely title!</title>
 	</head>
 	<body>
-		<h1>Header one is pretty important - that's why it's gigantic. This is how we let google know that things are important.</h1>
-		<img src="https://betamore.com/wp-content/uploads/2013/04/logo.png">
-		<h2>H2, though you may be wee-er, you are still important.</h2>
+	<br />
+		<h1 id="open-title">Catie &amp;
+ Co.</h1>
+		<img src="templogo.gif" id="logo">
+		<div class="content">
+		<h2>Hey there. I make things sometimes.</h2>
 
 		<p>Here's some text for you. <strong>Do you like it?</strong></p>
 		
@@ -14,39 +21,75 @@
 		<p>Sometimes we add a second paragraph. You know, <em>for the contents.</em></p>
 		<br />
 		<p>Have you been to my <a href="http://www.catiecollins.com" title="Catie Collins Does Stuff">website</a>? Sadly, I didn't code it myself. But squarespace did. Good job, squarespace!</p>
-<!-- LOOK AT THIS COMMENT! IT IS SECRETIVE. I COULD BE TALKING SMACK AND YOU WOULDNT EVEN KNOW. -->
-		<h4>Here are things I like.</h4>
-		<ul>
-			<li>Coffee</li>
-			<li>Even numbers</li>
-			<li>Chris Pratt</li>
-			<li>Small animals</li>
-		</ul>
-		<h4>Here are things I don't like. In order of unlikedness.</h4>
-		<ol>
-			<li>Aggressive jumping insects</li>
-			<li>Odd numbers</li>
-			<li>Sad endings</li>
-			<li>Bad coffee</li>
-			</ol>
-
-		<table>
-			<TR>
-				<TH>Types of Cheese</TH>
-				<th>Types of Cake</th>
-			</TR>
-			<tr>
-				<td>Cheddar</td>
-				<td>Chocolate</td>
-			</tr>
-			<tr>
-				<td>Stinky</td>
-				<td>Cheese</td>
-			</tr>
-			<tr>
-				<td>Gouda</td>
-				<td>Ice Cream</td>
-			</tr>
-		</table>
+<br />
+		<hr>
+<br />
+<!-- LOOK AT THIS COMMENT! IT IS SECRETIVE. I COULD BE TALKING SMACK AND YOU WOULDNT EVEN KNOW. I mean you would. If you inspected it. But the other 80% of the time you wouldn't even know.-->
+		
+			<div class="likes-list">
+			<h4>Here are things I like.</h4>
+			<ul>
+				<li>Coffee</li>
+				<li>Even numbers</li>
+				<li>Chris Pratt</li>
+				<li>Small animals</li>
+			</ul>
+			</div>
+			
+			<div class="dislikes-list">
+			<h4>Here are things I don't like. In order of unlikedness.</h4>
+			<ol>
+				<li>Aggressive jumping insects</li>
+				<li>Odd numbers</li>
+				<li>Sad endings</li>
+				<li>Bad coffee</li>
+				</ol>
+			</div>
+			<div>
+		<div id="compare-one">
+		<h4>Have we compared cheese and cake?</h4>
+				<table>
+					<TR>
+						<TH>Types of Cheese</TH>
+						<th>Types of Cake</th>
+					</TR>
+					<tr>
+						<td>Cheddar</td>
+						<td>Chocolate</td>
+					</tr>
+					<tr>
+						<td>Stinky</td>
+						<td>Cheese</td>
+					</tr>
+					<tr>
+						<td>Gouda</td>
+						<td>Ice Cream</td>
+					</tr>
+				</table>
+				
+		</div>
+		<div id="compare-two">		
+		<h4>What about fruit and veggies?</h4>
+				<table>
+					<TR>
+						<TH>Types of Fruits</TH>
+						<th>Types of Veggies</th>
+					</TR>
+					<tr>
+						<td>Apple</td>
+						<td>Eggplant</td>
+					</tr>
+					<tr>
+						<td>Orange</td>
+						<td>Squash</td>
+					</tr>
+					<tr>
+						<td>Pear</td>
+						<td>Zucchini</td>
+					</tr>
+				</table>
+				</div>
+				</div>
+		</div>
 	</body>
 </html>

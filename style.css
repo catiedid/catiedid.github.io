@@ -1,0 +1,101 @@
+h2,h3,h4{
+	color: #335450;
+	font-family: 'Montserrat', sans-serif;
+	margin: auto;
+	width: 600px;
+	text-align: center;
+}
+
+h1{
+	font-size: 5em;
+	font-stretch: expanded;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin: auto;
+	width: 500px;
+	text-align: center;
+}
+
+hr{
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+.content {
+	background-color: #f4f4f4;
+	padding: 40px;
+	margin-top: 40px;
+}
+
+p, li, table {
+	font-family: 'Crimson Text', serif;
+}
+
+p{
+	text-align: center;
+	font-size: 1.15em;
+}
+
+img {
+	max-width: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.likes-list{
+	color: #6f8a6f;
+	float: right;
+	width: 50%;
+}
+
+.dislikes-list{
+	float: left;
+	color: #6f8a6f;
+	width: 50%;
+}
+
+#compare-one{
+	float:left;
+	width: 50%;
+}
+
+#compare-two{
+	float:right;
+	width: 50%;
+}
+
+div{
+	display: inline-block;
+}
+
+#logo{
+	padding: 10px 30px 10px 30px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td, th {
+	border: solid 2px #335450;
+	padding: 0.5em;
+	text-align: left;
+}
+
+body{
+	background-attachment: fixed;
+	background-image: url(succulents.jpg);
+	background-color: #606060;
+	background-blend-mode: multiply;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a:link {color: #689cb5; font-weight: bold;}
+a:visited {color:#6f818a; font-weight: bold;}
+a:hover {color: #4d768b; font-weight: bold;}
+
